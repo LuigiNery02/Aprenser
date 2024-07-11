@@ -1,0 +1,192 @@
+:root{
+    --primary-color: #FED001;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+p, a{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+nav a{
+    color: inherit;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.5rem 4.5rem;
+    display: inline-block;
+    color: inherit;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.wp{
+    padding-top: 0.1rem;
+}
+
+.wrapperContainer{
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer_light{
+    background-color: #fafafa;
+}
+
+.wrapperContainer2{
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainerFixed{
+    position: sticky;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin:auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.header_nav a{
+    padding: 0.75em 1.15em;
+    border:solid 0.1rem;
+    text-decoration: none;
+}
+
+.header_nav a:hover{
+    background-color: black;
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20rem;
+}
+
+.wrapperContainer_hero{
+    background-image: linear-gradient(transparent, rgb(255, 255, 56));
+}
+
+.wpcp{
+    padding: 10rem;
+}
+
+.heroTitle{
+    margin-bottom: 4rem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursosContainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.cursos_card{
+    border: 0.1rem solid #949494;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cursos_card h3{
+    font-size: 2.4rem;
+}
+
+.cursos_card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card img{
+    display: block;
+    width: 100%;
+}
+
+.cursos_card_content{
+    padding: 1rem 1.25rem;
+}
+
+.sectionTitle{
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.sectionBtn{
+    margin: 7rem 0;
+}
+
+#escola{
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.schoolTitle{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+#escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.contatosAddress{
+    text-align: right;
+    font: normal 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.footer{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.footer a{
+    color: inherit;
+}
